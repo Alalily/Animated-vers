@@ -33,7 +33,7 @@ jobs:
         run: |
           mkdir -p _site
           cp cw_home.html _site/index.html
-          cp cw_reset.css cw_styles.css "lily's.js" _site/
+          cp cw_reset.css cw_styles.css "lily's.js" cw_image07.png cw_image01.png _site/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
